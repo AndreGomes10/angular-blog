@@ -1,5 +1,4 @@
 .container__big-card{
-    /*border: solid white 2px;  /* pra enchergar a borda do component */
     margin-left: 20px;
     margin-right: 20px;
     width: 400px;
@@ -20,7 +19,7 @@
     margin-top: 10px;
 }
 
-.big-card__description > p > a{ /* ele é um p e dentro do p tem um a */
+.big-card__description > p > a{
     color: gray;
 }
 

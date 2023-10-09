@@ -1,0 +1,16 @@
+@media screen and (max-width: 600px){
+    .container__galeria{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .container__galeria > img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 280px;
+        min-width: 200px;
+        margin-right: 20px;
+    }
+}

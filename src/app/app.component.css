@@ -1,6 +1,26 @@
 header{
-    /*border: 1px solid red;*/
     margin-top: 15px;
     display: flex;
     justify-content: center;
+}
+
+footer{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px){
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

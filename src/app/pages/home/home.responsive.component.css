@@ -1,0 +1,26 @@
+@media screen and (max-width: 600px){
+    .container__articles{
+        margin-top: 30px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container__articles .galeria{
+        margin-top: 30px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container__menu .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

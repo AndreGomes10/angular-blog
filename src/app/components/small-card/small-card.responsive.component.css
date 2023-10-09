@@ -1,0 +1,40 @@
+@media screen and (max-width: 600px){
+    .container__small-card{
+        width: 700px;
+        margin-bottom: 15px;
+    }
+    
+    .container__small-card-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .small-card__photo > img{
+        width: 200px;
+        min-width: 200px;
+        margin-right: 20px;
+    }
+    
+    .small_card__title{
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container__small-card__separator{
+        margin-top: 10px;
+    }
+    
+    .container__articles-footer{
+        margin-bottom: 20px;
+    }
+
+    .small-card__description p > a{
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

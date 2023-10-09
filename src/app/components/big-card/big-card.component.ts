@@ -7,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class BigCardComponent implements OnInit {
 
-  @Input() // essa pripriedade é imputavel, assim é possivel chamar na pagina home
+  @Input()
   photoCover: string = ""
   @Input()
   cardTitle: string = ""

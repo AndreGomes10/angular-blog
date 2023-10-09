@@ -3,14 +3,16 @@ import { Component, Input, OnInit } from '@angular/core';
 @Component({
   selector: 'app-small-card',
   templateUrl: './small-card.component.html',
-  styleUrls: ['./small-card.component.css']
+  styleUrls: ['./small-card.component.css', './small-card.responsive.component.css']
 })
 export class SmallCardComponent implements OnInit {
 
-  @Input() // essa pripriedade é imputavel, assim é possivel chamar na pagina home
+  @Input()
   photoCover: string = ""
   @Input()
   cardTitle: string = ""
+  @Input()
+  cardDescription: string = ""
   @Input()
   Id: string = "0"
 

@@ -1,5 +1,4 @@
 .container__small-card{
-    /*border: 1px solid white;*/
     width: 700px;
     margin-bottom: 15px;
 }
@@ -16,6 +15,7 @@
 }
 
 .small_card__title{
+    font-size: 14px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,4 +23,8 @@
 
 .container__small-card__separator{
     margin-top: 10px;
+}
+
+.container__articles-footer{
+    margin-bottom: 20px;
 }

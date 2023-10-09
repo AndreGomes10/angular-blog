@@ -1,7 +1,6 @@
 .container__content{
-    /*border: 1px solid white;*/
     width: 100%;
-    height: 100vh;  /* ele vai pegar 100% do espaço, conforme o tanto de conteudo */
+    height: 100vh;
 
     margin-top: 20px;
 
